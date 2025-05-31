@@ -1,50 +1,95 @@
-# Welcome to your Expo app 👋
+# 🧠 Task Manager App (todo-app-ins)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A sleek and minimalistic **task management app** built with **React Native** and **Expo**.  
+Users can create, delete, and manage tasks with a clean dark-themed UI and persistent storage using AsyncStorage.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- 📝 Add, complete, and delete tasks
+- 🌙 Dark mode interface
+- 💾 Local data persistence with AsyncStorage
+- 🔄 State management with React Hooks
+- 📱 Responsive and mobile-friendly layout
+- 🛠️ Expo-based quick deployment
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🔧 Tech Stack
 
-In the output, you'll find options to open the app in a
+- **Framework:** React Native + Expo
+- **Language:** TypeScript (TSX)
+- **Storage:** AsyncStorage
+- **Navigation:** React Navigation
+- **Design:** Custom styled components + dark theme
+- **Tooling:** GitHub, VS Code, Expo Go
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📸 Screenshots
 
-## Get a fresh project
+| Main View | Empty State |
+|-----------|-------------|
+| ![Screenshot1](./assets/demoScreen/SimulatorScreenshot1.png) | ![Screenshot2](./assets/demoScreen/SimulatorScreenshot2.png) |
 
-When you're ready, run:
+---
+
+## 🚀 Getting Started
+
+To run the project locally:
 
 ```bash
-npm run reset-project
+git clone https://github.com/Cavga1903/todo-app-ins.git
+cd todo-app-ins
+npm install
+npm start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+After running npm start, Expo CLI will launch in your terminal and open the developer tools in your browser. You’ll see a QR code to run the app on your device.
 
-## Learn more
+After running npm start, Expo CLI will launch in your terminal and open the developer tools in your browser. You’ll see a QR code to run the app on your device.
 
-To learn more about developing your project with Expo, look at the following resources:
+📱 Run the app on your device
+ • Install Expo Go from the App Store (iOS) or Google Play (Android).
+ • Scan the QR code shown in your terminal or browser.
+ • The app will open instantly on your phone.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+💻 Run the app on a simulator/emulator
+ • Press i to run on iOS Simulator (macOS & Xcode required).
+ • Press a to run on Android Emulator (Android Studio required).
+ • Press w to open in your web browser (limited support).
 
-## Join the community
+✅ Supports hot reload: Code changes reflect instantly on your device.
 
-Join our community of developers creating universal apps.
+If you run into installation issues, try:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+rm -rf node_modules
+rm package-lock.json
+npm install
+```
+
+🧠 What I Learned
+ • How to build responsive UI components in React Native
+ • Using AsyncStorage for persistent data
+ • Managing state with React Hooks
+ • Creating reusable button and input components
+ • Styling and layout for mobile, dark theme
+
+   📌 Future Improvements
+ • 🔔 Push/local notification reminders
+ • 🗂️ Task categories (Work, Study, Personal)
+ • 🎨 Light/dark theme toggle
+ • 🔍 Search & filter tasks
+ • ✅ Swipe to complete/delete
+
+   📫 Contact
+
+Reach me at: <cavgaa228@gmail.com>
+Or [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tolgaacavgaa/)
+
+⭐️ If you like this project…
+ • ⭐ Star it on GitHub
+ • 🍴 Fork it for your own use
+ • 🧑‍💻 Follow me for more projects: @Cavga1903
